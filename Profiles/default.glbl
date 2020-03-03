@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>web registration</description>
+      <initValue>'https://staging.student.cakap.com/login/register/email'</initValue>
+      <name>urlRegistration</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>web login </description>
+      <initValue>'https://staging.student.cakap.com/login?returnUrl=%252Fcourse%252Fcalendar'</initValue>
+      <name>urlLogin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>web schedule login</description>
+      <initValue>'https://staging.student.cakap.com/course/calendar'</initValue>
+      <name>urlLoginSchedule</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

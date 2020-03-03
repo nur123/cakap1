@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e945d566-1f96-4a90-bb6a-aff27af7663f</testCaseGuid>
+   <variable>
+      <defaultValue>'nurmuhammad017@yopmail.com'</defaultValue>
+      <description></description>
+      <id>28273cde-dad4-4612-8969-ddb87898f888</id>
+      <masked>false</masked>
+      <name>emaillogin</name>
+   </variable>
+   <variable>
+      <defaultValue>'Satria123'</defaultValue>
+      <description></description>
+      <id>da5f24df-de69-46b6-ab61-390292362d7f</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
