@@ -73,5 +73,5 @@ WebUI.delay(2)
 //
 //WebUI.waitForJQueryLoad(10)
 //
-//WebUI.delay(2)
+//WebUI.delay(2) 
 
