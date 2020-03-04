@@ -55,7 +55,6 @@ def setupTestCase() {
 	//WebUI.maximizeWindow()
 	WebUI.setViewPortSize(1340, 720)
 	WebUI.navigateToUrl(GlobalVariable.urlLogin)
-	WebUI.navigateToUrl(GlobalVariable.urlLoginSchedule)
 }
 
 /**

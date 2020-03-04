@@ -6,17 +6,12 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description>web registration</description>
-      <initValue>'https://staging.student.cakap.com/login/register/email'</initValue>
+      <initValue>'https://hotfix.student.cakap.com/login/register/email'</initValue>
       <name>urlRegistration</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>web login </description>
-      <initValue>'https://staging.student.cakap.com/login?returnUrl=%252Fcourse%252Fcalendar'</initValue>
+      <description>web login</description>
+      <initValue>'https://hotfix.student.cakap.com/login?returnUrl=%2Fcourse%2Fcalendar'</initValue>
       <name>urlLogin</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>web schedule login</description>
-      <initValue>'https://staging.student.cakap.com/course/calendar'</initValue>
-      <name>urlLoginSchedule</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

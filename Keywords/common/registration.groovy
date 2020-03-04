@@ -1,4 +1,5 @@
 package common
+
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -43,7 +44,7 @@ import com.kms.katalon.core.webui.exception.WebElementNotFoundException
 
 public class registration {
 	/**
-	 * Reegistration Student
+	 * Registration Student
 	 */
 	@Keyword
 	def registrationStudent() {
@@ -61,7 +62,7 @@ public class registration {
 
 		WebUI.click(findTestObject('Registration/Button/button_sign up'))
 
-		WebUI.waitForJQueryLoad(10)
+		WebUI.waitForJQueryLoad(20)
 
 		WebUI.delay(2)
 
@@ -79,7 +80,7 @@ public class registration {
 
 		WebUI.click(findTestObject('Registration/Button/button_start learning'))
 
-		WebUI.waitForJQueryLoad(10)
+		WebUI.waitForJQueryLoad(20)
 
 		WebUI.delay(2)
 
@@ -88,8 +89,6 @@ public class registration {
 		WebUI.waitForPageLoad(20)
 
 		WebUI.waitForJQueryLoad(20)
-
-		WebUI.waitForElementPresent(findTestObject('Registration/Button/button_dashboard'), 10)
 
 		WebUI.click(findTestObject('Registration/Button/button_ok'))
 

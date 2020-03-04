@@ -53,28 +53,12 @@ public class login {
 
 		WebUI.click(findTestObject('Login/Button/button login'))
 
-		WebUI.waitForPageLoad(20)
-
-		WebUI.waitForJQueryLoad(20)
-
-		WebUI.waitForElementPresent(findTestObject('Login/Button/button login'), 10)
-
-		WebUI.delay(2)
-		
-		WebUI.navigateToUrl(GlobalVariable.urlLoginSchedule)
-		
-		WebUI.waitForPageLoad(20)
-		
-		WebUI.waitForJQueryLoad(20)
-		
-		WebUI.delay(2)
-		
-		WebUI.navigateToUrl(GlobalVariable.urlLoginSchedule)
-		
 		WebUI.waitForPageLoad(30)
-		
+
 		WebUI.waitForJQueryLoad(30)
-		
-		WebUI.delay(2)
+
+		WebUI.waitForElementPresent(findTestObject('Login/Button/button login'), 20)
+
+		WebUI.delay(10)
 	}
 }

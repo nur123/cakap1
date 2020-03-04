@@ -27,7 +27,7 @@ WebUI.setText(findTestObject('Registration/Button/input confirmpassword'), confi
 
 WebUI.click(findTestObject('Registration/Button/button_sign up'))
 
-WebUI.waitForJQueryLoad(10)
+WebUI.waitForJQueryLoad(20)
 
 WebUI.delay(2)
 
@@ -45,7 +45,7 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Registration/Button/button_start learning'))
 
-WebUI.waitForJQueryLoad(10)
+WebUI.waitForJQueryLoad(20)
 
 WebUI.delay(2)
 
@@ -55,8 +55,6 @@ WebUI.waitForPageLoad(20)
 
 WebUI.waitForJQueryLoad(20)
 
-WebUI.waitForElementPresent(findTestObject('Registration/Button/button_dashboard'), 10)
-
 WebUI.click(findTestObject('Registration/Button/button_ok'))
 
 WebUI.waitForPageLoad(20)
@@ -64,14 +62,4 @@ WebUI.waitForPageLoad(20)
 WebUI.waitForJQueryLoad(20)
 
 WebUI.delay(2)
-
-//WebUI.click(findTestObject('Registration/Button/button_drop_icon_logout'))
-//
-//WebUI.delay(2)
-//
-//WebUI.click(findTestObject('Registration/Button/button_logout'))
-//
-//WebUI.waitForJQueryLoad(10)
-//
-//WebUI.delay(2) 
 
