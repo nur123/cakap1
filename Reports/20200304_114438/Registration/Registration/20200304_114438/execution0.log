@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-03-04T11:45:09</date>
+  <millis>1583297109548</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Registration/Registration</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">Registration</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Registration/Registration</property>
+</record>
+<record>
+  <date>2020-03-04T11:45:09</date>
+  <millis>1583297109635</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = mnur - 192.168.55.124</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">mnur - 192.168.55.124</property>
+</record>
+<record>
+  <date>2020-03-04T11:45:09</date>
+  <millis>1583297109639</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Mac OS X 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Mac OS X 64bit</property>
+</record>
+</log>
